@@ -34,6 +34,14 @@ This combination of HTML, CSS, and JavaScript creates a functional, aestheticall
 
 
 
+![Screenshot (16)](https://github.com/user-attachments/assets/4c96fef2-6f89-477d-8707-6a2371753a29)
+![Screenshot (17)](https://github.com/user-attachments/assets/d5746d3d-50c1-4a08-aefa-85da6f050cf0)
+![Screenshot (18)](https://github.com/user-attachments/assets/50f1f607-111f-4b32-85d2-9a4f6fcba594)
+
+![Screenshot (20)](https://github.com/user-attachments/assets/44551b1c-e1e5-409b-bab5-f08258204050)![Screenshot (19)](https://github.com/user-attachments/assets/97668f78-5527-4c7e-b37a-2b7a0e353a55)
+
+
+
 
 
 
