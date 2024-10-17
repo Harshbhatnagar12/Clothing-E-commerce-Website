@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+        font-family: "Ubuntu", serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        scroll-behavior: smooth;
+}
+/* Nav part  */
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.nav-h1{
+    color: sienna;
+    font-size: 20px;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.options i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+/* //Hero-section */
+
+.herosection{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+
+}
+.hero-left{
+    height: 450px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 120px;
+  
+}
+.hero-para{
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.hero-h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.hero-h1 span{
+    color: sienna;
+}
+.hero-btn{
+ margin-top: 30px;   
+}
+.hero-btn button{
+    height: 50px;
+    width: 200px;
+    background-color: sienna;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero-right{
+    height: 450px;
+    width: 50%;
+    padding-left: 20px;
+    object-fit: cover;
+}
+.hero-right img{
+    object-fit: cover;
+}
+
+.shops{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.shops-h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.shops-h1 span{
+  color: sienna;
+}
+.shops-boxes{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 70px;
+}
+
+.shop-box-1{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+.image{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("shirt1.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+.shop-box-1-h3{
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.shops-icon{
+    color: rgb(255, 213, 0);
+   font-size: 20px;
+   margin-left: 77px;
+   margin-top: 10px;
+}
+.shops-btn button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    font-size: 20px;
+    margin-left: 66px;
+   margin-top: 10px;
+   cursor: pointer;
+
+}
+.shop-box-2{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+.image2{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("image2.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+
+.shop-box-3{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+.image3{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("image3.png");
+    background-position-y: -125px;
+    background-position-x: 17px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  
+}
+
+.girls-shops{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.shop-box-4{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+
+.image4{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("image4.png");
+    background-position-y: -28px;
+    background-position-x: 17px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.shop-box-5{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+.image5{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("image5.png");
+    background-position-y: -135px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.shop-box-6{
+    height: 400px;
+    width: 300px;
+    background-color: white;  
+    border-radius: 20px;
+}
+.image6{
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    background-image: url("image6.png");
+    background-position-y: -45px;
+    background-position-x: 10px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+     /* Blogs  */
+
+.blogs{
+    height: 500px;
+    width: 100%;  
+    
+}
+.blogs-h1{
+font-size: 25px;
+text-align: center;
+} 
+.blog-l-and-r{
+height: 500px;
+width: 100%;
+display: flex;
+} 
+.blog-left{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-left-box{
+    height: 300px;
+    width: 500px;  
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.blog-image-boy{
+    height: 280px;
+    width: 1400px;
+     margin-left: 10px;
+     margin-top: 10px;
+     background-image: url("image9.jpeg");
+     background-size: cover;
+    background-position-y:-2px ;
+    border-radius: 14px;
+} 
+.blog-boy-text{
+    height: 280px;
+    margin-left: 20px;
+}
+.blog-boy-text h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.blog-boy-text p{
+    margin-top: 20px;
+    text-align: center;  
+    padding-right: 12px;
+}
+.blog-boy-text button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    background-color: sienna;
+    margin-top: 15px;
+    border-radius: 10px;
+ margin-left: 14px;
+
+}
+.blog-boy-text a{
+    text-decoration: none;
+    color: white;
+}
+.blog-right{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-right-box{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    border: 2px solid white;
+}
+.blog-image-girl{
+    height: 280px;
+    width: 1400px;
+     margin-left: 10px;
+     margin-top: 10px;
+     background-image: url("image10.jpeg");
+     background-size: cover;
+    background-position-y:-13px ;
+    border-radius: 14px;
+} 
+.blog-girl-text h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.blog-girl-text p{
+    margin-top: 20px;
+    text-align: center;  
+    padding-right: 12px;
+}
+.blog-girl-text button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    background-color: sienna;
+    margin-top: 15px;
+    border-radius: 10px;
+ margin-left: 23px;
+
+}
+.blog-girl-text a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* footer  */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-h1{
+    font-size: 100px;
+    margin-top: 40px;
+    color: sienna;
+}
+.footer .icons{
+    font-size: 80px;
+
+}
+
+/* About  */
+
